@@ -89,9 +89,9 @@ form{
     align-items: center;
 }
 input[type=button]{
-    width: 140px;
-    font-size: larger;
-    font-weight: bold;
+    width: 145px;
+    font-size: 1.2rem;
+    font-weight: 10px;
     height: 40px;
     border-radius: 15px;
     margin-top: 20px;
@@ -160,7 +160,75 @@ input[type=button]{
 
      /* oppurtunity to signup section  */
 
+
+     .oppurtunity{
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: space-between; */
+    height: fit-content;
+    padding: 0 0 10px 10px;
+    /* background-color: black; */
+}
+
      .oppurtunity-right{
     display: none;
 }
+
+
+    .oppurtunity-left h1{
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.oppurtunity-left p{
+    color: rgb(190, 190, 190);
+    font-size:19px;
+}
+
+.oppurtunity-left{
+    /* background-color: red; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    width: 100%;
+}
+
+form{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+input[type=button]{
+    width: 120px;
+    font-size: 13px;
+    font-weight: 10px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+  input[type=button]:hover{
+    background-color: rgb(206, 196, 196);
+}
+.form-ancho{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(236, 236, 236);
+}
+.form-ancho:hover{
+    color: gray;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
 }
