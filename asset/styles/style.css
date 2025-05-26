@@ -401,13 +401,30 @@ footer h2,p{
 @media screen and (max-width:512px) {
 
 
+  /* container section */
+
+  .container{
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+
   /* navbar section  */
   .nav{
     display: none;
     
 }
+.navbar-toggler{
+  background-color: rgb(231, 231, 231);
+
+}
+
 #nav{
   display: block;
+  margin-bottom: 3rem;
+  background-color: black;
 }
 
 
