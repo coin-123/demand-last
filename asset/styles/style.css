@@ -96,13 +96,13 @@
     width: 50%;
   }
   .order-input h1 {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     font-family: sans-serif;
     margin-bottom: 15px;
   }
   .order-input p{
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 15px;
     font-size: large;
     font-family: sans-serif;
@@ -111,11 +111,13 @@
     /* background-color: red; */
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
     width: 24rem;
     margin-bottom: 2rem;
   }
   #order-icon{
-    width: 7rem;
+    /* width: 7rem; */
+    /* background-color: blue; */
      color: white;
     font-size: xx-large;
     font-weight: bolder;
