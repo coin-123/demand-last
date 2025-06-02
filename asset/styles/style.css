@@ -136,6 +136,9 @@
     height: 100%;
   } */
 
+
+
+  
 /* styling order input section form input */
 .first-form-input{
     background-color: rgb(255, 255, 255);
@@ -196,7 +199,7 @@ input[type=button]:hover{
 }
 .sugestion-order {
   /* background-color: blue; */
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(100, 100, 100);
   border-radius: 10px;
   width: 400px;
   display: flex;
@@ -226,7 +229,7 @@ input[type=button]:hover{
   border-radius: 40px;
 }
 .sugestion-order button:hover{
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(127, 127, 127);
   color: #ffff;
   text-decoration: underline;
 }
@@ -235,8 +238,11 @@ input[type=button]:hover{
   border-radius: 20px;
   height: 80px;
 }
+.sugestion-box-holder h2{
+  color: white;
+}
 .sugestion-reserve {
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(100, 100, 100);
   border-radius: 10px;
   width: 400px;
   display: flex;
@@ -274,7 +280,7 @@ input[type=button]:hover{
   border-radius: 40px;
 }
 .sugestion-reserve button:hover{
-  background-color: rgb(104, 104, 104);
+  background-color: rgb(127, 127, 127);
   color: #ffff;
   text-decoration: underline;
 }
@@ -348,9 +354,10 @@ input[type=button]:hover{
   background-color: rgb(167, 167, 167);
   /* width: 1100px; */
   border-radius: 15px;
-  height: 25rem;
-  padding: 15px 0 0 20px;
+  height: auto;
+  padding: 15px 0 15px 20px;
 }
+
 
 
 
@@ -533,11 +540,11 @@ footer h2,p{
 
 
 .sugestion-app{
-  height: 500px;
-  /* background-color: red; */
-  margin-bottom: 80px;
-  padding: 0 0 0 17px;
-
+  background-color: rgb(167, 167, 167);
+  /* width: 1100px; */
+  border-radius: 15px;
+  height: auto;
+  padding: 15px 0 15px 20px;
 }
 .sugestion-box-holder{
   width: 95%;
@@ -548,7 +555,7 @@ footer h2,p{
 }
 .sugestion-order {
   /* background-color: blue; */
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(100, 100, 100);
   border-radius: 10px;
   width: 100%;
   display: flex;
@@ -557,21 +564,24 @@ footer h2,p{
   justify-content: center;
 }
 .sugestion-reserve {
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(100, 100, 100);
   border-radius: 10px;
   width: 100%;
   display: flex;
   padding: 10px;
   flex-direction: column;
 }
+
 .sugestion-order div{
   width: 95%;
   display: flex;
+  gap: 30px;
   justify-content: space-between;
 }
 .sugestion-reserve div{
   width: 95%;
   display: flex;
+    gap: 30px;
   justify-content: space-between;
 }
 
