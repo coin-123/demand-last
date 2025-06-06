@@ -36,6 +36,10 @@
     background-color: aliceblue;
     text-decoration: none;
     color: black;
+    width: auto;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
 
 }
 .sign-up:hover{
