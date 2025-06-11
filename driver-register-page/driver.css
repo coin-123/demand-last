@@ -222,6 +222,13 @@ input[type=button]{
 }
 
 
+/* under nav */
+
+.under-nav{
+    display: none;
+}
+
+
 
 /* for combine work */
 .oppurtunity, .make-head{
@@ -304,7 +311,7 @@ input[type=button]{
 
 
 .make-money{
-    background-color: rgb(218, 218, 218);
+    /* background-color: rgb(218, 218, 218); */
     width: 100%;
     height: auto;
     /* display: flex; */
@@ -351,6 +358,13 @@ input[type=button]{
     display: none;
 
 }
+
+
+
+
+/* driving requirements sction */
+
+
 
 
 
