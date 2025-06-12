@@ -186,6 +186,28 @@ input[type=button]{
 
 
 
+/* swiper path */
+
+
+ .swiper {
+      display: none;
+      /* background-color: red; */
+    }
+    #swiperid{
+        display: none;
+    }
+   
+
+
+
+
+
+
+
+
+
+
+
 /* driving Requirements section */
 
 .driving-requirements{
@@ -267,10 +289,6 @@ input[type=button]{
 }
 
 .oppurtunity-left{
-    /* background-color: red; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
     width: 100%;
 }
 
@@ -279,7 +297,6 @@ form{
     gap: 10px;
     /* background-color: red; */
     justify-content: center;
-    /* align-items: center; */
 }
 
 
@@ -352,9 +369,7 @@ input[type=button]{
 
 
 .make-money-img{
-    /* background-color: aliceblue; */
-    /* width: 60%; */
-    /* height: 60%; */
+ 
     display: none;
 
 }
@@ -362,7 +377,38 @@ input[type=button]{
 
 
 
-/* driving requirements sction */
+/* driving requirements sction 
+
+    Along with swope js
+*/
+
+.driving-requirements{
+    display: none;
+}
+
+
+ .swiper {
+      width: 100%;
+      height: 300px;
+      display: block;
+      /* background-color: red; */
+    }
+    #swiperid{
+        display: block;
+    }
+    .swiper-slide {
+      text-align: center;
+      /* font-size: 18px; */
+      background: #d8d8d8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 100px;
+      width: 60%;
+    }
+    .swiper-button-prev{
+        /* background-color: black; */
+    }
 
 
 
